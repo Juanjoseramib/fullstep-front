@@ -14,6 +14,10 @@
     text-align: justify;
 }
 
+.seccion-logo-alt {
+    display: none;
+}
+
 .seccion-logo{
     display: flex;
     flex-direction: column;
@@ -33,14 +37,21 @@
 @media (max-width: 800px) {
     .Footer {
         width: 100vw;
-        flex-wrap: wrap-reverse;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 3rem;
     }
 
+    .seccion-logo-alt {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .seccion-logo {
-        width: 100%;
+        display: none;
     }
 
     .sec1 {
