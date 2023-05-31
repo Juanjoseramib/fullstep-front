@@ -1,5 +1,6 @@
 .Footer {
     width: 100vw;
+    min-height: 50vh;
     background-color: #3e92b7;
     color: white;
     display: flex;

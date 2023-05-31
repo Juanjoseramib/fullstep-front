@@ -1,11 +1,11 @@
 import React from 'react'
 import './home.css'
-import Navbar from '../../components/Navbar/Navbar.jsx'
+
+
 
 export default function Home() {
   return (
     <div className='home-container'>
-        <Navbar/>
         <div className='cont-photocomp'>
           <img src="https://www.fullstep.com/wp-content/uploads/2021/09/Fondo-caja-cabecera-home.png" alt="" />
           <section className='text-photocomp'>
