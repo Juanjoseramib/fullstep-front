@@ -1,13 +1,10 @@
-import './App.css';
-import MainLayout from './layouts/MainLayout/MainLayout.jsx';
-import Home from './pages/Home/Home.jsx';
+import { router } from "./pages";
+import { RouterProvider } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Home/>
-    </div>
-  );
+    <RouterProvider router={ router } />
+  )
 }
 
-export default App;
+export default App
