@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.nav-container {
+    display: flex;
+    width: 100vw;
+    height: 12vh;
+    padding-inline: 4rem;
+    margin-inline: auto;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30%;
+    /* border: solid 2px black; */
+}
+.nav-container .logo {
+    height: 50%;
+    width: auto;
+    object-fit: cover;
+}
+
+.navbar-options {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+
+}
+.navbar-options .language-options {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+.navbar-options .language-options .img-arrow {
+    object-fit: contain;
+    margin-top: 3%;
+}
+.navbar-options .img-message{
+    height: 3vh;
+
+}
+.navbar-options .img-search{
+    height: 3vh;
+}
