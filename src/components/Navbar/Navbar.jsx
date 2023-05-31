@@ -19,7 +19,6 @@ export default function Navbar() {
           </span>
           <img src="https://www.fullstep.com/wp-content/uploads/2021/11/sobre-verde50.png" alt="" className='img-message' />
           <img src="https://www.fullstep.com/wp-content/uploads/2021/11/lupa-verde50.png" alt="" className='img-search' />
-        </div>
-    </div>
+      </div>
   )
 }
