@@ -6,9 +6,9 @@ import Footer from '../../components/Footer/Footer.jsx'
 export default function MainLayout() {
   return (
     <div class="main-container">
-    <Header/>
-    <Outlet/>
-    <Footer />
+      <Header/>
+      <Outlet/>
+      <Footer />
     </div>
   )
 }
