@@ -1,6 +1,6 @@
 .Footer {
     width: 100vw;
-    min-height: 50vh;
+    min-height: 40vh;
     background-color: #3e92b7;
     color: white;
     display: flex;
@@ -13,6 +13,7 @@
     flex-direction: column;   
     justify-content: center;
     text-align: justify;
+    gap: 1rem;
 }
 
 .seccion-logo-alt {
@@ -24,6 +25,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
+
+}
+
+.seccion-logo div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .logo-fullstep {
@@ -41,7 +50,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 3rem;
+        gap: 2rem;
     }
 
     .seccion-logo-alt {
@@ -49,6 +58,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 1rem;
     }
 
     .seccion-logo {

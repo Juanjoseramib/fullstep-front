@@ -1,8 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+import whithMT from '@material-tailwind/react/utils/withMT'
+module.exports = whithMT({
+  content: [
+    "./src/**/*.{html,js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
-}
+  plugins: [
+    '@tailwindcss/aspect-ratio',
+    '@tailwindcss/forms',
+  ],
+})

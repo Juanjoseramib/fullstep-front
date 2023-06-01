@@ -1,0 +1,11 @@
+.Carrusel-componente {
+    border: 2px solid red;
+    height: 100vh;
+    width: 100vw;
+}
+
+.Carrusel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
